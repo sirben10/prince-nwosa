@@ -1,0 +1,10 @@
+[28-Jan-2025 11:31:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BIRTHDAY WITH CHARITY VISIT'' at line 1 in /home/leodistr/lionsdistrict404a2.com/app/assets/check_all_others.php:177
+Stack trace:
+#0 /home/leodistr/lionsdistrict404a2.com/app/assets/check_all_others.php(177): mysqli_query(Object(mysqli), 'SELECT * FROM  ...')
+#1 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/assets/check_all_others.php on line 177
+[28-Jan-2025 11:31:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Birthday with Charity Visit'' at line 1 in /home/leodistr/lionsdistrict404a2.com/app/assets/check_all_others.php:177
+Stack trace:
+#0 /home/leodistr/lionsdistrict404a2.com/app/assets/check_all_others.php(177): mysqli_query(Object(mysqli), 'SELECT * FROM  ...')
+#1 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/assets/check_all_others.php on line 177

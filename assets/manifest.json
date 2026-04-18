@@ -1,0 +1,20 @@
+{
+  "name": "Prince N. Nwosa Ph.D, CIPMN",
+  "short_name": "Authors Profile",
+  "start_url": "/",
+  "display": "fullscreen",
+  "background_color": "#333",
+  "theme_color": "#4285f4",
+  "icons": [
+    {
+      "src": "img/logo/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/logo/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

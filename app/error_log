@@ -1,0 +1,139 @@
+[14-Oct-2024 00:20:25 Asia/Kolkata] PHP Warning:  Undefined variable $row in /home/leodistr/lionsdistrict404a2.com/app/include/header.php on line 14
+[14-Oct-2024 00:20:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/include/header.php on line 14
+[14-Oct-2024 00:20:25 Asia/Kolkata] PHP Warning:  Undefined variable $row in /home/leodistr/lionsdistrict404a2.com/app/include/header.php on line 54
+[14-Oct-2024 00:20:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/include/header.php on line 54
+[14-Oct-2024 00:20:25 Asia/Kolkata] PHP Warning:  Undefined array key "msg1" in /home/leodistr/lionsdistrict404a2.com/app/change-password.php on line 96
+[14-Oct-2024 00:20:25 Asia/Kolkata] PHP Deprecated:  htmlentities(): Passing null to parameter #1 ($string) of type string is deprecated in /home/leodistr/lionsdistrict404a2.com/app/change-password.php on line 96
+[14-Oct-2024 00:20:41 Asia/Kolkata] PHP Warning:  Undefined variable $row in /home/leodistr/lionsdistrict404a2.com/app/include/header.php on line 14
+[14-Oct-2024 00:20:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/include/header.php on line 14
+[14-Oct-2024 00:20:41 Asia/Kolkata] PHP Warning:  Undefined variable $row in /home/leodistr/lionsdistrict404a2.com/app/include/header.php on line 54
+[14-Oct-2024 00:20:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/include/header.php on line 54
+[21-Oct-2024 09:49:22 UTC] PHP Parse error:  Unmatched '}' in /home/leodistr/lionsdistrict404a2.com/app/add-event.php on line 77
+[21-Oct-2024 09:50:05 UTC] PHP Parse error:  Unmatched '}' in /home/leodistr/lionsdistrict404a2.com/app/add-event.php on line 77
+[21-Oct-2024 09:50:44 UTC] PHP Parse error:  Unmatched '}' in /home/leodistr/lionsdistrict404a2.com/app/add-event.php on line 77
+[21-Oct-2024 09:51:07 UTC] PHP Parse error:  Unmatched '}' in /home/leodistr/lionsdistrict404a2.com/app/add-event.php on line 77
+[21-Oct-2024 09:51:41 UTC] PHP Parse error:  Unmatched '}' in /home/leodistr/lionsdistrict404a2.com/app/add-event.php on line 77
+[21-Oct-2024 09:52:26 UTC] PHP Parse error:  Unmatched '}' in /home/leodistr/lionsdistrict404a2.com/app/add-event.php on line 77
+[21-Oct-2024 09:52:48 UTC] PHP Parse error:  Unmatched '}' in /home/leodistr/lionsdistrict404a2.com/app/add-event.php on line 78
+[21-Oct-2024 09:52:52 UTC] PHP Parse error:  Unmatched '}' in /home/leodistr/lionsdistrict404a2.com/app/add-event.php on line 78
+[21-Oct-2024 09:53:24 UTC] PHP Parse error:  Unmatched '}' in /home/leodistr/lionsdistrict404a2.com/app/add-event.php on line 78
+[21-Oct-2024 09:54:00 UTC] PHP Parse error:  Unmatched '}' in /home/leodistr/lionsdistrict404a2.com/app/add-event.php on line 78
+[29-Oct-2024 13:29:58 UTC] PHP Warning:  Undefined variable $row in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Warning:  Undefined variable $row in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Warning:  Undefined variable $row in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Warning:  Undefined variable $row in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Warning:  Undefined variable $row in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Warning:  Undefined variable $row in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:29:58 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 82
+[29-Oct-2024 13:39:55 UTC] PHP Warning:  Trying to access array offset on value of type int in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php on line 1153
+[29-Oct-2024 13:39:55 UTC] PHP Deprecated:  ord(): Passing null to parameter #1 ($character) of type string is deprecated in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php on line 1153
+[29-Oct-2024 13:39:55 UTC] PHP Warning:  Trying to access array offset on value of type int in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php on line 1153
+[29-Oct-2024 13:39:55 UTC] PHP Deprecated:  ord(): Passing null to parameter #1 ($character) of type string is deprecated in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php on line 1153
+[29-Oct-2024 13:42:17 UTC] PHP Fatal error:  Cannot redeclare Header() in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 55
+[29-Oct-2024 13:43:22 UTC] PHP Fatal error:  Cannot redeclare Header() in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 55
+[29-Oct-2024 13:46:51 UTC] PHP Fatal error:  Cannot redeclare Header() in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 55
+[29-Oct-2024 13:51:19 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/leodistr/lionsdistrict404a2.com/app/print-report.php:55) in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/leodistr/lionsdistrict404a2.com/app/print-report.php(102): FPDF->Output()
+#3 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php on line 267
+[29-Oct-2024 13:51:46 UTC] PHP Warning:  Undefined variable $title in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 50
+[29-Oct-2024 13:51:46 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/leodistr/lionsdistrict404a2.com/app/print-report.php:50) in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/leodistr/lionsdistrict404a2.com/app/print-report.php(102): FPDF->Output()
+#3 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php on line 267
+[29-Oct-2024 13:52:12 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/leodistr/lionsdistrict404a2.com/app/print-report.php:64) in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/leodistr/lionsdistrict404a2.com/app/print-report.php(102): FPDF->Output()
+#3 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php on line 267
+[29-Oct-2024 13:52:42 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/leodistr/lionsdistrict404a2.com/app/print-report.php:76) in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/leodistr/lionsdistrict404a2.com/app/print-report.php(102): FPDF->Output()
+#3 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php on line 267
+[29-Oct-2024 14:23:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function body() in /home/leodistr/lionsdistrict404a2.com/app/print-report.php:125
+Stack trace:
+#0 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 125
+[29-Oct-2024 14:24:20 UTC] PHP Warning:  require(fpdf.php): Failed to open stream: No such file or directory in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 3
+[29-Oct-2024 14:24:20 UTC] PHP Warning:  require(fpdf.php): Failed to open stream: No such file or directory in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 3
+[29-Oct-2024 14:24:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'fpdf.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/leodistr/lionsdistrict404a2.com/app/print-report.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 3
+[29-Oct-2024 14:24:54 UTC] PHP Fatal error:  Cannot declare class FPDF, because the name is already in use in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php on line 10
+[29-Oct-2024 14:25:14 UTC] PHP Fatal error:  Cannot declare class FPDF, because the name is already in use in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php on line 10
+[29-Oct-2024 14:44:06 UTC] PHP Fatal error:  Cannot declare class FPDF, because the name is already in use in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php on line 10
+[29-Oct-2024 14:47:46 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: No page has been added yet in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php(1463): FPDF->Error('No page has bee...')
+#1 /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php(648): FPDF->_out('BT 224.02 824.7...')
+#2 /home/leodistr/lionsdistrict404a2.com/app/print-report.php(65): FPDF->Cell(189.99905555556, 10, 'DISTRICT CABINE...', 0, 0, 'C')
+#3 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php on line 267
+[29-Oct-2024 14:51:50 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string / int in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php:399
+Stack trace:
+#0 /home/leodistr/lionsdistrict404a2.com/app/print-report.php(75): FPDF->SetTextColor('white')
+#1 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/fpdf/fpdf.php on line 399
+[09-Nov-2024 17:22:16 UTC] PHP Fatal error:  Uncaught TypeError: Cannot increment array in /home/leodistr/lionsdistrict404a2.com/app/print-report.php:106
+Stack trace:
+#0 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 106
+[09-Nov-2024 17:22:40 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/leodistr/lionsdistrict404a2.com/app/print-report.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 108
+[13-Nov-2024 08:40:20 UTC] PHP Parse error:  Unmatched '}' in /home/leodistr/lionsdistrict404a2.com/app/admin-user.php on line 107
+[13-Nov-2024 09:27:31 UTC] PHP Parse error:  syntax error, unexpected token "--" in /home/leodistr/lionsdistrict404a2.com/app/events-register.php on line 97
+[13-Nov-2024 09:28:01 UTC] PHP Parse error:  syntax error, unexpected token "--" in /home/leodistr/lionsdistrict404a2.com/app/events-register.php on line 97
+[13-Nov-2024 09:28:07 UTC] PHP Parse error:  syntax error, unexpected token "--" in /home/leodistr/lionsdistrict404a2.com/app/events-register.php on line 97
+[13-Nov-2024 10:26:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 145
+[13-Nov-2024 10:26:05 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 145
+[13-Nov-2024 10:26:32 UTC] PHP Parse error:  Unclosed '{' on line 52 does not match ')' in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 145
+[13-Nov-2024 10:26:35 UTC] PHP Parse error:  Unclosed '{' on line 52 does not match ')' in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 145
+[13-Nov-2024 10:26:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 145
+[13-Nov-2024 10:27:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 145
+[13-Nov-2024 10:27:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 145
+[13-Nov-2024 10:28:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 145
+[13-Nov-2024 10:31:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function money_format() in /home/leodistr/lionsdistrict404a2.com/app/print-report.php:147
+Stack trace:
+#0 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 147
+[13-Nov-2024 10:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function money_format() in /home/leodistr/lionsdistrict404a2.com/app/print-report.php:146
+Stack trace:
+#0 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 146
+[13-Nov-2024 10:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function money_format() in /home/leodistr/lionsdistrict404a2.com/app/print-report.php:146
+Stack trace:
+#0 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 146
+[13-Nov-2024 10:33:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function money_format() in /home/leodistr/lionsdistrict404a2.com/app/print-report.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 145
+[13-Nov-2024 10:34:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function money_format() in /home/leodistr/lionsdistrict404a2.com/app/print-report.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/leodistr/lionsdistrict404a2.com/app/print-report.php on line 145

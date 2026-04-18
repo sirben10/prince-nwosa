@@ -1,0 +1,58 @@
+[18-Apr-2025 13:44:25 UTC] PHP Warning:  Undefined array key "book_title" in /home/tkavosgf/public_html/assets/free_pages_request.php on line 12
+[18-Apr-2025 13:44:25 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tkavosgf/public_html/assets/free_pages_request.php on line 12
+[18-Apr-2025 13:44:25 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: You must provide at least one recipient email address. in /home/tkavosgf/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:1574
+Stack trace:
+#0 /home/tkavosgf/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1517): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/tkavosgf/public_html/assets/free_pages_request.php(119): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/tkavosgf/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1574
+[18-Apr-2025 13:44:55 UTC] PHP Warning:  Undefined array key "book_title" in /home/tkavosgf/public_html/assets/free_pages_request.php on line 12
+[18-Apr-2025 13:44:55 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tkavosgf/public_html/assets/free_pages_request.php on line 12
+[18-Apr-2025 13:44:55 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: You must provide at least one recipient email address. in /home/tkavosgf/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:1574
+Stack trace:
+#0 /home/tkavosgf/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1517): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/tkavosgf/public_html/assets/free_pages_request.php(119): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/tkavosgf/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1574
+[18-Apr-2025 13:54:18 UTC] PHP Warning:  Undefined array key "book_title" in /home/tkavosgf/public_html/assets/free_pages_request.php on line 12
+[18-Apr-2025 13:54:18 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/tkavosgf/public_html/assets/free_pages_request.php on line 12
+[18-Apr-2025 13:54:18 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: You must provide at least one recipient email address. in /home/tkavosgf/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:1574
+Stack trace:
+#0 /home/tkavosgf/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1517): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/tkavosgf/public_html/assets/free_pages_request.php(119): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/tkavosgf/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1574
+[20-Apr-2025 17:03:07 UTC] PHP Warning:  Undefined variable $dateUpdates in /home/tkavosgf/public_html/assets/free_pages_request.php on line 22
+[20-Apr-2025 17:04:52 UTC] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #2 ($baseTimestamp) must be of type ?int, string given in /home/tkavosgf/public_html/assets/free_pages_request.php:21
+Stack trace:
+#0 /home/tkavosgf/public_html/assets/free_pages_request.php(21): strtotime('+60 minutes', '2025-04-20 19:3...')
+#1 {main}
+  thrown in /home/tkavosgf/public_html/assets/free_pages_request.php on line 21
+[20-Apr-2025 17:06:47 UTC] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #2 ($baseTimestamp) must be of type ?int, string given in /home/tkavosgf/public_html/assets/free_pages_request.php:20
+Stack trace:
+#0 /home/tkavosgf/public_html/assets/free_pages_request.php(20): strtotime('Y-m-d H:i', '2025-04-20 19:3...')
+#1 {main}
+  thrown in /home/tkavosgf/public_html/assets/free_pages_request.php on line 20
+[20-Apr-2025 17:07:20 UTC] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #2 ($baseTimestamp) must be of type ?int, string given in /home/tkavosgf/public_html/assets/free_pages_request.php:20
+Stack trace:
+#0 /home/tkavosgf/public_html/assets/free_pages_request.php(20): strtotime('Y-m-d H:i:s', '2025-04-20 19:3...')
+#1 {main}
+  thrown in /home/tkavosgf/public_html/assets/free_pages_request.php on line 20
+[20-Apr-2025 17:07:39 UTC] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #2 ($baseTimestamp) must be of type ?int, string given in /home/tkavosgf/public_html/assets/free_pages_request.php:20
+Stack trace:
+#0 /home/tkavosgf/public_html/assets/free_pages_request.php(20): strtotime('Y-m-d H:i:s', '2025-04-20 19:3...')
+#1 {main}
+  thrown in /home/tkavosgf/public_html/assets/free_pages_request.php on line 20
+[20-Apr-2025 18:38:18 Africa/Lagos] PHP Warning:  Undefined variable $email in /home/tkavosgf/public_html/assets/free_pages_request.php on line 29
+[21-Apr-2025 09:54:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/tkavosgf/public_html/app/include/config.php:8
+Stack trace:
+#0 /home/tkavosgf/public_html/app/include/config.php(8): mysqli_connect('localhost', 'tkavosgf_prince...', Object(SensitiveParameterValue), 'tkavosgf_prince...')
+#1 /home/tkavosgf/public_html/assets/free_pages_request.php(3): include_once('/home/tkavosgf/...')
+#2 {main}
+  thrown in /home/tkavosgf/public_html/app/include/config.php on line 8
+[26-Dec-2025 01:34:31 Africa/Lagos] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: You must provide at least one recipient email address. in /home/tkavosgf/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:1574
+Stack trace:
+#0 /home/tkavosgf/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1517): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/tkavosgf/public_html/assets/free_pages_request.php(123): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/tkavosgf/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1574
