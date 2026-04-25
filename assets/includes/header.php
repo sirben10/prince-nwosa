@@ -36,6 +36,9 @@ $select_link = "SELECT * FROM filelink ";
 // Select Image Gallery
 $select_images = "SELECT * FROM image_gallery ";
 
+// Select Video Gallery
+$select_videos = "SELECT * FROM video_gallery ";
+
 
 $title = "Prince N. Nwosa Ph.D, CIPMN";
 

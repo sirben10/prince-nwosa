@@ -20,7 +20,7 @@
 				<li><a><i class="fa fa-image"></i> Gallery <span class="fa fa-chevron-down"></span></a>
 				<ul class="nav child_menu">
 					<li><a href="gallery.php?p=photos">Photos</a></li>
-					<li><a href="gallery?p=videos">Videos</a></li>
+					<li><a href="gallery.php?p=videos">Videos</a></li>
 				</ul>
 			</li>
 
