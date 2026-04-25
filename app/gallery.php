@@ -36,7 +36,7 @@ if (isset($_GET['del']) && $galleryType === 'videos') {
 	if (file_exists($path)) {
 		unlink($path);
 	}
-	
+
 	// Delete thumbnail if exists
 	$thumbPath = $_SERVER['DOCUMENT_ROOT'] . "/app/video-gallery/thumbnails/" . $rows['thumbnail'];
 	if (!empty($rows['thumbnail']) && file_exists($thumbPath)) {
@@ -54,60 +54,88 @@ include("assets/topheader.php");
 		height: 620px !important;
 		overflow-y: scroll !important;
 	}
+
 	.video-thumbnail {
 		position: relative;
 		cursor: pointer;
 		border-radius: 8px;
 		overflow: hidden;
-		background: #333;
-		min-height: 150px;
+		background: #000;
+		height: 180px;
+		/* Fixed preview height */
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
+
+	.video-thumbnail img,
+	.video-thumbnail video {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
 	.video-thumbnail:hover .play-overlay {
 		opacity: 1;
 	}
+
 	.play-overlay {
 		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: rgba(0,0,0,0.4);
+		background: rgba(0, 0, 0, 0.4);
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		opacity: 0;
 		transition: opacity 0.3s ease;
 	}
+
 	.play-overlay i {
 		font-size: 50px;
 		color: white;
 	}
+
 	.video-title {
 		font-size: 14px;
 		margin-top: 10px;
 		font-weight: 600;
 	}
-	/* Modal Styles */
+
+	/* Modal Improvements */
+
 	.modal-video .modal-dialog {
-		max-width: 800px;
+		max-width: 900px;
 		margin: 30px auto;
 	}
+
 	.modal-video .modal-content {
 		background: #000;
 		border: none;
 	}
+
 	.modal-video .modal-header {
 		border: none;
 		padding: 10px;
 	}
+
 	.modal-video .close {
 		color: #fff;
 		opacity: 1;
 		font-size: 30px;
 	}
+
+	/* FIXED RESPONSIVE VIDEO HEIGHT */
+
 	.modal-video video {
 		width: 100%;
-		max-height: 70vh;
+		height: 500px;
+		/* Absolute height */
+		max-height: 75vh;
+		object-fit: contain;
+		background: #000;
 	}
 </style>
 <title>Admin | Gallery</title>
@@ -157,12 +185,47 @@ include("assets/topheader.php");
 							<div class="tile_count">
 								<div class="m-auto text-center">
 									<!-- Video Thumbnail with Play Button -->
-									<div class="video-thumbnail gallery-img" onclick="playVideo('video-gallery/<?php echo $vrow['videoName']; ?>', '<?php echo addslashes($vrow['videoTitle']); ?>')">
+									<!-- <div class="video-thumbnail gallery-img" onclick="playVideo('video-gallery/<?php echo $vrow['videoName']; ?>', '<?php echo addslashes($vrow['videoTitle']); ?>')">
 										<div class="play-overlay">
 											<i class="fa fa-play-circle"></i>
 										</div>
+									</div> -->
+
+									<div class="video-thumbnail gallery-img"
+										onclick="playVideo(
+'video-gallery/<?php echo $vrow['videoName']; ?>',
+'<?php echo addslashes($vrow['videoTitle']); ?>'
+)">
+
+										<?php
+										$thumbFile = "video-gallery/thumbnails/" . $vrow['thumbnail'];
+										$videoFile = "video-gallery/" . $vrow['videoName'];
+
+										if (!empty($vrow['thumbnail']) && file_exists($thumbFile)) {
+										?>
+
+											<!-- SHOW THUMBNAIL -->
+											<img src="<?php echo $thumbFile; ?>" alt="Video Thumbnail">
+
+										<?php
+										} else {
+										?>
+
+											<!-- FALLBACK: REAL VIDEO PREVIEW -->
+											<video muted preload="metadata">
+												<source src="<?php echo $videoFile; ?>#t=0.5" type="video/mp4">
+											</video>
+
+										<?php
+										}
+										?>
+
+										<div class="play-overlay">
+											<i class="fa fa-play-circle"></i>
+										</div>
+
 									</div>
-									
+
 									<p class="video-title"><?php echo $vrow['videoTitle']; ?></p>
 
 									<a href="?id=<?php echo $vrow['videoID'] ?>&del=delete&p=videos" onClick="return confirm('Are you sure you want to delete?')" class="btn btn-danger btn-xs tooltips" tooltip-placement="top" tooltip="Remove" title="Remove video"><i class="fa fa-times"></i></a>
@@ -201,15 +264,39 @@ include("assets/topheader.php");
 
 	<script>
 		function playVideo(videoSrc, title) {
-			document.getElementById('videoTitle').textContent = title;
-			document.getElementById('videoPlayer').src = videoSrc;
+
+			var player =
+				document.getElementById('videoPlayer');
+
+			document.getElementById(
+				'videoTitle'
+			).textContent = title;
+
+			player.src = videoSrc;
+
 			$('#videoModal').modal('show');
+
+			player.load();
+			player.play();
+
 		}
-		
-		$('#videoModal').on('hidden.bs.modal', function () {
-			document.getElementById('videoPlayer').pause();
-			document.getElementById('videoPlayer').currentTime = 0;
-		});
+
+		/* Stop video when modal closes */
+
+		$('#videoModal').on(
+			'hidden.bs.modal',
+			function() {
+
+				var player =
+					document.getElementById(
+						'videoPlayer'
+					);
+
+				player.pause();
+				player.currentTime = 0;
+				player.src = "";
+
+			});
 	</script>
 
 </body>

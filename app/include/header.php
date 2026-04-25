@@ -58,57 +58,6 @@
 								<a class="dropdown-item"  href="logout.php"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
 							</div>
 						</li>
-						<?php
-					        if($admin_row["admintype"] != 'payobserver'){
- 						$contact_sql="SELECT * FROM  tblcontactus WHERE isRead =0";
-					
-						 $contact_query = mysqli_query($con, $contact_sql);
-						
-						 $count = mysqli_num_rows($contact_query);
-						//  echo $count; exit;
-
-						?>
-						<li role="presentation" class="nav-item dropdown open">
-
-							<a href="javascript:;" class="dropdown-toggle info-number" id="navbarDropdown1" data-toggle="dropdown" aria-expanded="false">
-								<i class="fa fa-envelope-o"></i>
-								<span class="badge bg-red"><?php echo  $count ?></span>
-							</a>
-							<ul class="dropdown-menu list-unstyled msg_list" role="menu" aria-labelledby="navbarDropdown1">
-								<?php 
-								if(isset($_GET['action']))
-								{
-									mysqli_query($con,"UPDATE tblcontactus set IsRead = 1, readDate = now() where id = '".$_GET['id']."'");
-								// 	$_SESSION['msg']="Message Read !!";
-								}
-								while($contact_row = mysqli_fetch_array($contact_query)){
-
-
-								?>
-								<li class="nav-item" >
-									<a class="dropdown-item" href="query-details?id=<?php echo $contact_row['id'] ?>&action=markread">
-										
-										<span>
-											<span><?php echo $contact_row['fullname'] ?></span>
-											<span class="time"><?php echo date('d-m-Y H:m:s', strtotime($contact_row['contactDate']))?></span>
-										</span>
-										<span class="message" style="font-weight:bold !important">
-										<?php echo $contact_row['messageSubject'];?>
-										</span>
-									</a>
-								</li>
-								<?php } ?>
-								<li class="nav-item">
-									<div class="text-center">
-										<a class="dropdown-item" href="unread-queries">
-											<strong>See All Alerts</strong>
-											<i class="fa fa-angle-right"></i>
-										</a>
-									</div>
-								</li>
-							</ul>
-						</li>
-						<?php } ?>
 					</ul>
 				</nav>
 			</div>
